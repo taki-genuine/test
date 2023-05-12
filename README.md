@@ -1,6 +1,5 @@
 # test
 ## h2
-1. etc
 1. t
 1. ta
 1. tak 
