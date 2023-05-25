@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rakus</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="alert alert-danger" role="alert">
+        <h4 class="alert-heading">Error!!</h4>
+        No such file or directory.
+    </div>
+
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Top</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+    </nav>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <div class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="false" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </div>
+          <div id="collapseOne" class="accordion-collapse collapse"
+              aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">AAA...</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseOne">
+                Accordion Item #2
+                </button>
+            </div>
+            <div id="collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <form>
+                        <span type="button" class="btn btn-success btn-sm" >
+                            Light<span class="badge bg-sucess text-dark">1</span>
+                        </span>
+                        <input type="text" >
+                        <input type="submit" value="送信">
+                    </form>
+                </div>
+            </div>
+            </div>
+        <div class="accordion-item">...</div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
