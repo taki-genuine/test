@@ -64,6 +64,29 @@
         <div class="accordion-item">...</div>
     </div>
 
+    <!-- できないっぽかった -->
+    <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button"
+            data-bs-toggle="dropdown" aria-expanded="false" id="1th">Menu</button>
+        <ul class="dropdown-menu" aria-labelledby="1th">
+          <li><a class="dropdown-item" href="#">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" id="2th">inMenu</button>
+                <ul class="dropdown-menu" aria-labelledby="2th">
+                  <li><a class="dropdown-item" href="#" >Menu#1</a></li>
+                  <li><a class="dropdown-item" href="#">Menu#2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Menu#3</a></li>
+                </ul>
+              </div>
+          </a></li>
+          <li><a class="dropdown-item" href="#">Menu#2</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Menu#3</a></li>
+        </ul>
+      </div>
+
 
     <div class="container-fluid" style="text-align: center;">
         <div class="row gx-0" >
@@ -91,6 +114,27 @@
           <div class="col"><div class="my-box" style="background-color: aqua;">.gx-5</div></div>
           <div class="col"><div class="my-box" style="background-color: aqua;">.gx-5</div></div>
           <div class="col"><div class="my-box" style="background-color: aqua;">.gx-5</div></div>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Show modal
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">外部サイトに遷移します</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>よろしければリンクをクリックしてください</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><a href="#">外部リンク(仮)</button>
+              <button type="button" class="btn btn-primary"></a>close</button>
+            </div>
+          </div>
         </div>
       </div>
 
